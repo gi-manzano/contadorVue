@@ -1,0 +1,14 @@
+.encabezado {
+    font-size: 50px;
+    font-style: oblique;
+    text-decoration: double;
+    background-color: rgb(234, 183, 244);
+    padding: 15px;
+    width: 100%;
+    
+}
+.btn {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(169,245,184,0.7458333675266982) 100%);
+    
+}
