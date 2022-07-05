@@ -1,18 +1,18 @@
 var app = new Vue ({
-    el: '#app',
-    data: {
-        value: 1,
+  el: '#app',
+  data: {
+    value: 1,
+  },
+  methods: {
+    incrementarUno (){
+      this.value ++;
     },
-    methods: {
-        incrementarUno (){
-            this.value ++;
-        },
-        decrementarUno(){
-            this.value --;
-        },
-        resetear (){
-            this.value = 0;
-        }
-        
+    decrementarUno(){
+      this.value --;
+    },
+    resetear (){
+      this.value = 0;
     }
+
+  }
 });
